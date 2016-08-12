@@ -1,5 +1,5 @@
 {
-    "name": "nexus/LinkHighlighter",
+    "name": "nexuslinkservices/link-email-highlighter",
     "type": "library",
     "Description": "Extension to highlight the links and also to highlight the emails in description",
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HighLighter\\": ""
+            "HighLighter\\": "link-email-highlighter"
         }
     }
 }
