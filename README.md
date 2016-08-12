@@ -12,13 +12,13 @@ high_lighter:
     mail: '0'
 ```
 
+```
 Note(s): 
 1. If configuration yaml is not there in your project then the default configuration will be taken into consideration.
 2. The bundle uses symfony yaml component to parse the yaml configuration.
+```
 
 Following is the reference code to make it working,
-
-first of all include the class according to the need,
 
 ```
 /**
@@ -29,7 +29,6 @@ first of all include the class according to the need,
 $highLighter = new HighLighter($pathToYaml);  //$pathToYaml is optional as mentioned earlier
 $highLightedContent = $highLighter->descriptionHighlighter($contentToBeHighlighted);
 ```
-
 
 That's it with the bundle.
 
