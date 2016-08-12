@@ -18,13 +18,14 @@ Following is the reference code to make it working,
 
 first of all include the class according to the need,
 
-`/**
+```/**
  * CODE
  * create anew object of HighLighter class
  */$pathToYaml is optional as mentioned earlier
 
 $highLighter = new HighLighter($pathToYaml);
-$highLightedContent = $highLighter->descriptionHighlighter($contentToBeHighlighted);`
+$highLightedContent = $highLighter->descriptionHighlighter($contentToBeHighlighted);
+```
 
 
 That's it with the bundle.
