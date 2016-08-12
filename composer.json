@@ -1,0 +1,22 @@
+{
+    "name": "nexus/LinkHighlighter",
+    "type": "library",
+    "Description": "Extension to highlight the links and also to highlight the emails in description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nexuslink Services"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "HighLighter\\": ""
+        }
+    }
+}
