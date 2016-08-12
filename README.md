@@ -1,4 +1,4 @@
-# HOW TO USE GUIDE:
+# HOW TO USE - GUIDE:
 
 Define below described properties to highlight inside the file
 and set their values to 1(true)/0(false) as per your need
@@ -6,9 +6,11 @@ and set their values to 1(true)/0(false) as per your need
 i.e.:  I want to highlight only links in my content, so I need to 
 define following variables in my configuration yaml file.
 
-`high_lighter:
+```
+high_lighter:
     link: '1'
-    mail: '0'`
+    mail: '0'
+```
 
 Note(s): 
 1. If configuration yaml is not there in your project then the default configuration will be taken into consideration.
@@ -18,12 +20,13 @@ Following is the reference code to make it working,
 
 first of all include the class according to the need,
 
-```/**
+```
+/**
  * CODE
- * create anew object of HighLighter class
- */$pathToYaml is optional as mentioned earlier
+ * create a new object of HighLighter class
+ */
 
-$highLighter = new HighLighter($pathToYaml);
+$highLighter = new HighLighter($pathToYaml);  //$pathToYaml is optional as mentioned earlier
 $highLightedContent = $highLighter->descriptionHighlighter($contentToBeHighlighted);
 ```
 
