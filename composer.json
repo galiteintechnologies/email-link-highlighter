@@ -5,7 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Nexuslink Services"
+            "name": "Nexuslink Services",
+            "email": "nexuslink.contributor@gmail.com"
         }
     ],
     "require": {
