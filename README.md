@@ -6,6 +6,7 @@ and set their values to 1(true)/0(false) as per your need
 
 [![Latest Version](https://img.shields.io/packagist/v/nexuslinkservices/link-email-highlighter.svg?style=flat-square)](https://packagist.org/packages/nexuslinkservices/link-email-highlighter)
 [![Build Status](https://travis-ci.org/nexuslinkservices/email-link-highlighter.svg?branch=master)](https://travis-ci.org/nexuslinkservices/email-link-highlighter)
+[![Software License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 i.e.:  I want to highlight only links in my content, so I need to 
 define following variables in my configuration yaml file.
