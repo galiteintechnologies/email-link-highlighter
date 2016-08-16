@@ -4,7 +4,7 @@ Define below described properties to highlight inside the file
 and set their values to 1(true)/0(false) as per your need
 
 
-[![Packagist](https://packagist.org/packages/nexuslinkservices/link-email-highlighter)](https://packagist.org/packages/nexuslinkservices/link-email-highlighter)
+[![Latest Version](https://img.shields.io/packagist/v/nexuslinkservices/link-email-highlighter.svg?style=flat-square)](https://packagist.org/packages/nexuslinkservices/link-email-highlighter)
 [![Build Status](https://travis-ci.org/nexuslinkservices/email-link-highlighter.svg?branch=master)](https://travis-ci.org/nexuslinkservices/email-link-highlighter)
 
 i.e.:  I want to highlight only links in my content, so I need to 
