@@ -3,6 +3,8 @@
 Define below described properties to highlight inside the file
 and set their values to 1(true)/0(false) as per your need
 
+[logo]: https://travis-ci.org/nexuslinkservices/email-link-highlighter.svg?branch=master "Build on scrutinizer"
+
 i.e.:  I want to highlight only links in my content, so I need to 
 define following variables in my configuration yaml file.
 
