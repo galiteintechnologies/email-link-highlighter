@@ -27,11 +27,11 @@ Following is the reference code to make it working,
  */
 
 $highLighter = new HighLighter($pathToYaml);  //$pathToYaml is optional as mentioned earlier
-$highLightedContent = $highLighter->descriptionHighlighter($contentToBeHighlighted);
+$highLightedContent = $highLighter->HighLight($contentToBeHighlighted);
 ```
 
 That's it with the bundle.
 
-# CONTRIBUTING:
+## CONTRIBUTING:
 
 Pull requests are always welcome.

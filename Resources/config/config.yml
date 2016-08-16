@@ -1,3 +1,3 @@
-high_lighter:
-    link: '1'
-    mail: '1'
+highlighting_enabled:
+    link: true
+    mail: false
