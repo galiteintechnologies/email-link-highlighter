@@ -5,7 +5,6 @@ and set their values to true/false as per your need
 
 
 [![Latest Version](https://img.shields.io/packagist/v/nexuslinkservices/link-email-highlighter.svg?style=flat-square)](https://packagist.org/packages/nexuslinkservices/link-email-highlighter)
-[![Build Status](https://travis-ci.org/nexuslinkservices/email-link-highlighter.svg?branch=master)](https://travis-ci.org/nexuslinkservices/email-link-highlighter)
 [![Software License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nexuslinkservices/email-link-highlighter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/email-link-highlighter/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/nexuslinkservices/email-link-highlighter/badges/build.png?b=master)](https://scrutinizer-ci.com/g/nexuslinkservices/email-link-highlighter/build-status/master)
