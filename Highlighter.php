@@ -45,14 +45,5 @@ class Highlighter {
         }
         return $content;
     }
-
-    /**
-     * 
-     * @return string
-     */
-    private function getPathToYml() {
-
-        return $this->pathToYml;
-    }
-
+    
 }

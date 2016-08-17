@@ -1,7 +1,7 @@
 # HOW TO USE - GUIDE:
 
 Define below described properties to highlight inside the file
-and set their values to 1(true)/0(false) as per your need
+and set their values to true/false as per your need
 
 
 [![Latest Version](https://img.shields.io/packagist/v/nexuslinkservices/link-email-highlighter.svg?style=flat-square)](https://packagist.org/packages/nexuslinkservices/link-email-highlighter)
