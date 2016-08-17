@@ -12,9 +12,9 @@ i.e.:  I want to highlight only links in my content, so I need to
 define following variables in my configuration yaml file.
 
 ```
-high_lighter:
-    link: '1'
-    mail: '0'
+highlighting_enabled:
+    link: true
+    mail: false
 ```
 
 ```
