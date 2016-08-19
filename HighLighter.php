@@ -12,8 +12,8 @@
 namespace LinkEmailHighLighter;
 
 use Symfony\Component\Yaml\Yaml;
-use LinkEmailHighLighter\src\Services\LinkHighlighter;
-use LinkEmailHighLighter\src\Services\MailToHighlighter;
+use LinkEmailHighLighter\src\Services\LinkHighLighter;
+use LinkEmailHighLighter\src\Services\MailToHighLighter;
 
 class HighLighter {
 
