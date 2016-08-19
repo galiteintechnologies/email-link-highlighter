@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Link Highlighter Package
+ * This file is part of the Link/Email HighLighter Package
  *
  * (c) Nexuslink Services
  *
