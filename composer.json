@@ -18,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "NLS\\LinkEmailHighLighter\\": "",
-            "NLS\\LinkEmailHighLighter\\src\\Services\\": "src/Services/"
+            "LinkEmailHighLighter\\": "",
+            "LinkEmailHighLighter\\src\\Services\\": "src/Services/"
         }
     }
 }
