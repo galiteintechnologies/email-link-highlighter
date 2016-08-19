@@ -1,8 +1,8 @@
 <?php
 
-namespace Highlighter\src\Services;
+namespace LinkEmailHighLighter\src\Services;
 
-class LinkHighlighter {
+class LinkHighLighter {
 
     private $regex = '/(^|[^"])(((f|ht){1}(tp|tps):\/\/)[-a-zA-Z0-9@:%_\+.~#?&\/\/=]+)/i';
     private $replaceToString = '\\1<a href="\\2" target="_blank">\\2</a>';

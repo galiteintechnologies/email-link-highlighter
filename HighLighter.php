@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Highlighter;
+namespace LinkEmailHighLighter;
 
 use Symfony\Component\Yaml\Yaml;
-use Highlighter\src\Services\LinkHighlighter;
-use Highlighter\src\Services\MailToHighlighter;
+use LinkEmailHighLighter\src\Services\LinkHighlighter;
+use LinkEmailHighLighter\src\Services\MailToHighlighter;
 
-class Highlighter {
+class HighLighter {
 
     private $pathToYml;
 
@@ -37,10 +37,10 @@ class Highlighter {
 
         $configArray = Yaml::parse(file_get_contents($this->pathToYml));
 
-        if ($configArray['high_lighter']['link']) {
+        if ($configArray['highlighting_enabled']['link']) {
             $content = LinkHighlighter::replaceWebLinks($content);
         }
-        if ($configArray['high_lighter']['mail']) {
+        if ($configArray['highlighting_enabled']['mail']) {
             $content = MailToHighlighter::replaceMailTo($content);
         }
         return $content;

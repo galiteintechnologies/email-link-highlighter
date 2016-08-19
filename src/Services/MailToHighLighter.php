@@ -1,8 +1,8 @@
 <?php
 
-namespace Highlighter\src\Services;
+namespace LinkEmailHighLighter\src\Services;
 
-class MailToHighlighter {
+class MailToHighLighter {
 
     private $searchArray = array('/([a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})/');
     private $replaceArray = array('<a href="mailto:$1">$1</a>');
